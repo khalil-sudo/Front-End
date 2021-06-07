@@ -7,7 +7,7 @@ import { LoginComponent } from './components/login/login.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { ReactiveFormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { SujetsComponent } from './components/sujets/sujets.component';
 import { AddEditSujComponent } from './components/sujets/add-edit-suj/add-edit-suj.component';
 import { ShowSujComponent } from './components/sujets/show-suj/show-suj.component';
@@ -20,6 +20,8 @@ import { AddEditStgComponent } from './components/stages/add-edit-stg/add-edit-s
 import { StagesComponent } from './components/stages/stages.component';
 import { ShowStgComponent } from './components/stages/show-stg/show-stg.component';
 import { HomepageComponent } from './components/homepage/homepage.component';
+
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -44,6 +46,8 @@ import { HomepageComponent } from './components/homepage/homepage.component';
     BrowserAnimationsModule,
     NgbModule,
     ReactiveFormsModule,
+    HttpClientModule,
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
