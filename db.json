@@ -1,0 +1,114 @@
+{
+  "Encadrants": [
+    {
+      "id": 1,
+      "nom ": "Mohamed",
+      "email": "mohamed@gmail.com",
+      "poste": "prof principal",
+      "département": "MACHINE LEARNING"
+    },
+    {
+      "id": 2,
+      "nom ": "Jamel",
+      "email": "jamel@gmail.com",
+      "poste": "prof principal",
+      "département": "COMPTABILITE"
+    },
+    {
+      "id": 3,
+      "nom ": "Achref",
+      "email": "Achref@gmail.com",
+      "poste": "prof principal",
+      "département": "TEST ET VALIDATION"
+    },
+    {
+      "id": 4,
+      "nom ": "Semi",
+      "email": "Semi@gmail.com",
+      "poste": "prof principal",
+      "département": "MATHEMATIQUES"
+    },
+    {
+      "id": 5,
+      "nom ": "Chrif",
+      "email": "Chrif@gmail.com",
+      "poste": "prof principal",
+      "département": "COMPILATEUR"
+    }
+  ],
+  "Stagiaires": [
+    {
+      "id": 1,
+      "nom ": "Nizar",
+      "date de naissance": "05/08/1995",
+      "email": "Nizar@gmail.com",
+      "institut": "SESAME",
+      "specialite": "GENIE LOGICIEL"
+    },
+    {
+      "id": 2,
+      "nom ": "siwar",
+      "date de naissance": "25/10/1995",
+      "email": "siwar@gmail.com",
+      "institut": "SESAME",
+      "specialite": "GENIE LOGICIEL"
+    },
+    {
+      "id": 3,
+      "nom ": "wassim",
+      "date de naissance": "17/02/1995",
+      "email": "wassim@gmail.com",
+      "institut": "SESAME",
+      "specialite": "COMPTABILITE"
+    }
+  ],
+  "Sujets": [
+    {
+      "id": 1,
+      "nom": "reconnaissance faciale",
+      "description": "la reconnaissance faciale des etudiants quand ils entrent au sein la fac ",
+      "diificulte": "Moyen"
+    },
+    {
+      "id": 2,
+      "nom": "carte metro NFC",
+      "description": "developpement d'un pass metro avec la technologie NFC ",
+      "diificulte": "Moyen"
+    },
+    {
+      "id": 3,
+      "nom": "management banque",
+      "description": "améliorer le système de gestion des banques ",
+      "diificulte": "Difficile"
+    }
+  ],
+  "Stages": [
+    {
+      "id": 1,
+      "type": "PFE",
+      "duree": "6 mois",
+      "date de debut": "02/02/2021",
+      "EncadrantId": 1,
+      "StagiaireId": 1,
+      "SujetId": 1
+    },
+    {
+      "id": 2,
+      "type": "PFA",
+      "duree": "6 semaines",
+      "date de debut": "30/06/2021",
+      "EncadrantId": 5,
+      "StagiaireId": 2,
+      "SujetId": 2
+    },
+    {
+      "id": 3,
+      "type": "PFE",
+      "duree": "6 mois",
+      "date de debut": "06/02/2021",
+      "EncadrantId": 2,
+      "StagiaireId": 3,
+      "SujetId": 1
+    }
+  ]
+}
