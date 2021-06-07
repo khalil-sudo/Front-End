@@ -22,6 +22,7 @@ import { ShowStgComponent } from './components/stages/show-stg/show-stg.componen
 import { HomepageComponent } from './components/homepage/homepage.component';
 
 import { HttpClientModule } from '@angular/common/http';
+import { NavbarComponent } from './components/navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -39,6 +40,7 @@ import { HttpClientModule } from '@angular/common/http';
     StagesComponent,
     ShowStgComponent,
     HomepageComponent,
+    NavbarComponent,
   ],
   imports: [
     BrowserModule,
