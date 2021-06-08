@@ -19,7 +19,7 @@ export class SharedService {
     return this.http.put(this.APIurl + '/sujets', value);
   }
   deleteSujets(value: any) {
-    return this.http.delete(this.APIurl + '/sujets' + value);
+    return this.http.delete(this.APIurl + '/sujets/' + value);
   }
 
   getEncadrantsList(): Observable<any[]> {
@@ -59,7 +59,7 @@ export class SharedService {
     return this.http.delete(this.APIurl + '/stages' + value);
   }
 
-  getAllSujetssNames(): Observable<any[]> {
-    return this.http.get<any[]>(this.APIurl + '/sujets/getAllSujetsNames');
+  getAllStagesNames(): Observable<any[]> {
+    return this.http.get<any[]>(this.APIurl + '/stages/getAllSujetsNames');
   }
 }

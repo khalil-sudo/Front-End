@@ -1,1 +1,36 @@
-<p>add-edit-suj works!</p>
+<div class="form-group row">
+  <label class="col-sm-2 col-form-label">Nom Sujet </label>
+  <div class="col-sm-10">
+    <input
+      type="text"
+      class="form-control"
+      [(ngModel)]="nom"
+      placeholder="entrez nom sujet"
+    />
+  </div>
+  <label class="col-sm-2 col-form-label">Description</label>
+  <div class="col-sm-10">
+    <input
+      type="text"
+      class="form-control"
+      [(ngModel)]="description"
+      placeholder="description du sujet"
+    />
+  </div>
+  <label class="col-sm-2 col-form-label">Difficulté </label>
+  <div class="col-sm-10">
+    <input
+      type="text"
+      class="form-control"
+      [(ngModel)]="difficulte"
+      placeholder="niveau de difficulte"
+    />
+  </div>
+</div>
+
+<button (click)="addSujet()" *ngIf="suj.id == 0" class="btn btn-primary">
+  Add
+</button>
+<button (click)="updateSujet()" *ngIf="suj.id != 0" class="btn btn-primary">
+  Update
+</button>

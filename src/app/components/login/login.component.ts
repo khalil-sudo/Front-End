@@ -33,7 +33,7 @@ export class LoginComponent implements OnInit {
       this.loginForm.value.email == 'test@test.com' &&
       this.loginForm.value.password == 'pass'
     ) {
-      this.rout.navigate(['/home']);
+      this.rout.navigate(['/sujet']);
     } else alert('wrong email or password');
   }
 }

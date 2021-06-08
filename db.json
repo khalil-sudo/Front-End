@@ -67,19 +67,25 @@
       "id": 1,
       "nom": "reconnaissance faciale",
       "description": "la reconnaissance faciale des etudiants quand ils entrent au sein la fac ",
-      "diificulte": "Moyen"
+      "difficulte": "Moyen"
     },
     {
       "id": 2,
       "nom": "carte metro NFC",
       "description": "developpement d'un pass metro avec la technologie NFC ",
-      "diificulte": "Moyen"
+      "difficulte": "Moyen"
     },
     {
       "id": 3,
       "nom": "management banque",
       "description": "améliorer le système de gestion des banques ",
-      "diificulte": "Difficile"
+      "difficulte": "Difficile"
+    },
+    {
+      "id": 4,
+      "nom": "test",
+      "description": "sujet test",
+      "difficulte": "facile"
     }
   ],
   "Stages": [
