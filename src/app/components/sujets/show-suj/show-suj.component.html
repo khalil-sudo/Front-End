@@ -1,1 +1,23 @@
-<p>show-suj works!</p>
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>id Sujet</th>
+      <th>Nom Sujet</th>
+      <th>Description Sujet</th>
+      <th>Difficulté</th>
+      <th>Options</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let dataItem of SujetsList">
+      <td>{{ dataItem.id }}</td>
+      <td>{{ dataItem.nom }}</td>
+      <td>{{ dataItem.description }}</td>
+      <td>{{ dataItem.difficulte }}</td>
+      <td>
+        <button type="button" class="btn btn-light mr-1">Editer</button>
+        <button type="button" class="btn btn-light mr-1">Supprimer</button>
+      </td>
+    </tr>
+  </tbody>
+</table>
