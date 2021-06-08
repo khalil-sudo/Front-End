@@ -38,8 +38,9 @@ export class ShowSujComponent implements OnInit {
       this.service
         .deleteSujets(item.id)
         .subscribe((data) => alert('Objet supprimé'));
-      this.refreshSujList();
     }
+    console.log('affiche');
+    this.refreshSujList();
   }
 
   closeClick() {

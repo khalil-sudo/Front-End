@@ -1,1 +1,55 @@
-<p>add-edit-sta works!</p>
+<div class="form-group row">
+  <label class="col-sm-2 col-form-label">Nom Stagiaire</label>
+  <div class="col-sm-10">
+    <input
+      type="text"
+      class="form-control"
+      [(ngModel)]="nom"
+      placeholder="entrez nom stagiaire"
+    />
+  </div>
+  <label class="col-sm-2 col-form-label">Date de naissance</label>
+  <div class="col-sm-10">
+    <input
+      type="text"
+      class="form-control"
+      [(ngModel)]="dn"
+      placeholder="date de naissance"
+    />
+  </div>
+  <label class="col-sm-2 col-form-label">E-mail </label>
+  <div class="col-sm-10">
+    <input
+      type="text"
+      class="form-control"
+      [(ngModel)]="email"
+      placeholder="email"
+    />
+  </div>
+
+  <label class="col-sm-2 col-form-label"> institut</label>
+  <div class="col-sm-10">
+    <input
+      type="text"
+      class="form-control"
+      [(ngModel)]="institut"
+      placeholder="institut"
+    />
+  </div>
+  <label class="col-sm-2 col-form-label">Spécialité </label>
+  <div class="col-sm-10">
+    <input
+      type="text"
+      class="form-control"
+      [(ngModel)]="specialite"
+      placeholder="specialite"
+    />
+  </div>
+</div>
+
+<button (click)="addStagiaire()" *ngIf="sta.id == 0" class="btn btn-primary">
+  Add
+</button>
+<button (click)="updateStagiaire()" *ngIf="sta.id != 0" class="btn btn-primary">
+  Update
+</button>

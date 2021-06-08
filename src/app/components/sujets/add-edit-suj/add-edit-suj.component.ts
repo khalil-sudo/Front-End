@@ -28,7 +28,7 @@ export class AddEditSujComponent implements OnInit {
       difficulte: this.difficulte,
     };
     this.service.addSujets(value).subscribe((res) => {
-      alert(res.toString());
+      alert('Nouvel objet ajouté !');
     });
   }
   updateSujet() {

@@ -39,24 +39,24 @@
   "Stagiaires": [
     {
       "id": 1,
-      "nom ": "Nizar",
-      "date de naissance": "05/08/1995",
+      "nom": "Nizar",
+      "dn": "05/08/1995",
       "email": "Nizar@gmail.com",
       "institut": "SESAME",
       "specialite": "GENIE LOGICIEL"
     },
     {
       "id": 2,
-      "nom ": "siwar",
-      "date de naissance": "25/10/1995",
+      "nom": "siwar",
+      "dn": "25/10/1995",
       "email": "siwar@gmail.com",
       "institut": "SESAME",
       "specialite": "GENIE LOGICIEL"
     },
     {
       "id": 3,
-      "nom ": "wassim",
-      "date de naissance": "17/02/1995",
+      "nom": "wassim",
+      "dn": "17/02/1995",
       "email": "wassim@gmail.com",
       "institut": "SESAME",
       "specialite": "COMPTABILITE"
@@ -80,12 +80,6 @@
       "nom": "management banque",
       "description": "améliorer le système de gestion des banques ",
       "difficulte": "Difficile"
-    },
-    {
-      "id": 4,
-      "nom": "test",
-      "description": "sujet test",
-      "difficulte": "facile"
     }
   ],
   "Stages": [
