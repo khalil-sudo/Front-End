@@ -2,35 +2,35 @@
   "Encadrants": [
     {
       "id": 1,
-      "nom ": "Mohamed",
+      "nom": "Mohamed",
       "email": "mohamed@gmail.com",
       "poste": "prof principal",
       "département": "MACHINE LEARNING"
     },
     {
       "id": 2,
-      "nom ": "Jamel",
+      "nom": "Jamel",
       "email": "jamel@gmail.com",
       "poste": "prof principal",
       "département": "COMPTABILITE"
     },
     {
       "id": 3,
-      "nom ": "Achref",
+      "nom": "Achref",
       "email": "Achref@gmail.com",
       "poste": "prof principal",
       "département": "TEST ET VALIDATION"
     },
     {
       "id": 4,
-      "nom ": "Semi",
+      "nom": "Semi",
       "email": "Semi@gmail.com",
       "poste": "prof principal",
       "département": "MATHEMATIQUES"
     },
     {
       "id": 5,
-      "nom ": "Chrif",
+      "nom": "Chrif",
       "email": "Chrif@gmail.com",
       "poste": "prof principal",
       "département": "COMPILATEUR"
